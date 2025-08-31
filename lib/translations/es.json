@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "games": "Juegos",
+    "tournaments": "Torneos",
+    "courses": "Cursos",
+    "sponsors": "Patrocinadores",
+    "affiliate": "Afiliados",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión / Registrarse",
+    "menu": "Menú"
+  },
+  "hero": {
+    "title": "COMPITE, APRENDE Y GANA EN LA ARENA DE ESPORTS DEFINITIVA",
+    "subtitle": "Únete a torneos, toma cursos y gana recompensas.",
+    "joinTournament": "Unirse a un Torneo",
+    "browseCourses": "Explorar Cursos"
+  },
+  "tournaments": {
+    "title": "Torneos Destacados",
+    "prizePool": "Premio",
+    "date": "Fecha",
+    "status": {
+      "upcoming": "Próximo",
+      "live": "En Vivo",
+      "ended": "Finalizado"
+    },
+    "actions": {
+      "watchLive": "Ver en Vivo",
+      "joinNow": "Unirse Ahora",
+      "viewResults": "Ver Resultados"
+    }
+  },
+  "games": {
+    "title": "Juegos Populares",
+    "playNow": "Jugar Ahora"
+  },
+  "courses": {
+    "title": "Cursos de Expertos",
+    "rating": "Calificación",
+    "students": "Estudiantes",
+    "enrollNow": "Inscribirse Ahora"
+  },
+  "sponsors": {
+    "title": "Nuestros Patrocinadores"
+  },
+  "affiliate": {
+    "title": "Únete a Nuestro Programa de Afiliados",
+    "subtitle": "Gana dinero promocionando nuestra plataforma",
+    "joinNow": "Unirse Ahora",
+    "stats": {
+      "affiliates": "Afiliados Activos",
+      "commission": "Comisión Promedio",
+      "payout": "Pago Mensual"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Suscríbete a nuestro boletín",
+      "subtitle": "Obtén las últimas actualizaciones y noticias",
+      "placeholder": "Ingresa tu email",
+      "subscribe": "Suscribirse"
+    },
+    "links": {
+      "company": "Empresa",
+      "support": "Soporte",
+      "legal": "Legal"
+    },
+    "copyright": "© 2024 QGame. Todos los derechos reservados."
+  }
+}

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Trophy, BookOpen } from "lucide-react";
 
 export default function Hero() {
+
   return (
     <section className="relative py-40 bg-[#111827] lg:py-56">
       {/* Background Image */}

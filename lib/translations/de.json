@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "games": "Spiele",
+    "tournaments": "Turniere",
+    "courses": "Kurse",
+    "sponsors": "Sponsoren",
+    "affiliate": "Partner",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "login": "Anmelden / Registrieren",
+    "menu": "Menü"
+  },
+  "hero": {
+    "title": "KÄMPFE, LERNE UND GEWINNE IN DER ULTIMATIVEN ESPORTS ARENA",
+    "subtitle": "Nimm an Turnieren teil, belege Kurse und verdiene Belohnungen.",
+    "joinTournament": "An Turnier Teilnehmen",
+    "browseCourses": "Kurse Durchsuchen"
+  },
+  "tournaments": {
+    "title": "Ausgewählte Turniere",
+    "prizePool": "Preispool",
+    "date": "Datum",
+    "status": {
+      "upcoming": "Bevorstehend",
+      "live": "Live",
+      "ended": "Beendet"
+    },
+    "actions": {
+      "watchLive": "Live Ansehen",
+      "joinNow": "Jetzt Beitreten",
+      "viewResults": "Ergebnisse Ansehen"
+    }
+  },
+  "games": {
+    "title": "Beliebte Spiele",
+    "playNow": "Jetzt Spielen"
+  },
+  "courses": {
+    "title": "Experten-Kurse",
+    "rating": "Bewertung",
+    "students": "Studenten",
+    "enrollNow": "Jetzt Einschreiben"
+  },
+  "sponsors": {
+    "title": "Unsere Sponsoren"
+  },
+  "affiliate": {
+    "title": "Tritt Unserem Partner-Programm Bei",
+    "subtitle": "Verdiene Geld durch die Bewerbung unserer Plattform",
+    "joinNow": "Jetzt Beitreten",
+    "stats": {
+      "affiliates": "Aktive Partner",
+      "commission": "Durchschnittliche Provision",
+      "payout": "Monatliche Auszahlung"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Abonniere unseren Newsletter",
+      "subtitle": "Erhalte die neuesten Updates und Nachrichten",
+      "placeholder": "E-Mail eingeben",
+      "subscribe": "Abonnieren"
+    },
+    "links": {
+      "company": "Unternehmen",
+      "support": "Support",
+      "legal": "Rechtliches"
+    },
+    "copyright": "© 2024 QGame. Alle Rechte vorbehalten."
+  }
+}
