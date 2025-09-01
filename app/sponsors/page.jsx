@@ -59,7 +59,7 @@ export default function SponsorsPage() {
       {/* Sponsors Grid */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
             {sponsors.map((sponsor) => (
               <div
                 key={sponsor.id}

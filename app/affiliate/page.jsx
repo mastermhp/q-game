@@ -99,32 +99,32 @@ export default function AffiliatePage() {
           <h3 className="text-[24px] my-text text-white text-center mb-12">
             Why Join?
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] w-3xl mx-auto h-[64px] flex items-center justify-start pl-6 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-6 max-w-xl mx-auto">
+            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] h-[64px] flex items-center justify-start pl-6 gap-4">
               <img src="/af3.svg" className="w-8 h-8 mt-1 flex-shrink-0" />
               <span className="text-[#FFFFFF] text-[18px] leading-[28px] my-text">
                 High commission rates on every referral
               </span>
             </div>
-            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] w-3xl mx-auto h-[64px] flex items-center justify-start pl-6 gap-4">
+            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] h-[64px] flex items-center justify-start pl-6 gap-4">
               <img src="/join2.svg" className="w-8 h-8 mt-1 flex-shrink-0" />{" "}
               <span className="text-[#FFFFFF] text-[18px] leading-[28px] my-text">
                 Real-time tracking dashboard to monitor your earnings
               </span>
             </div>
-            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] w-3xl mx-auto h-[64px] flex items-center justify-start pl-6 gap-4">
+            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] h-[64px] flex items-center justify-start pl-6 gap-4">
               <img src="/join3.svg" className="w-8 h-8 mt-1 flex-shrink-0" />{" "}
               <span className="text-[#FFFFFF] text-[18px] leading-[28px] my-text">
                 Access to marketing resources, banners, graphics, content
               </span>
             </div>
-            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] w-3xl mx-auto h-[64px] flex items-center justify-start pl-6 gap-4">
+            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] h-[64px] flex items-center justify-start pl-6 gap-4">
               <img src="/join4.svg" className="w-8 h-8 mt-1 flex-shrink-0" />{" "}
               <span className="text-[#FFFFFF] text-[18px] leading-[28px] my-text">
                 Monthly payouts directly to your account
               </span>
             </div>
-            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] w-3xl mx-auto h-[64px] flex items-center justify-start pl-6 gap-4">
+            <div className="bg-[#EFF6FF1C] border-l-4 border-[#9D0C0F] h-[64px] flex items-center justify-start pl-6 gap-4">
               <img src="/join5.svg" className="w-8 h-8 mt-1 flex-shrink-0" />{" "}
               <span className="text-[#FFFFFF] text-[18px] leading-[28px] my-text">
                 Be part of a growing global esports community

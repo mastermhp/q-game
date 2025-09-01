@@ -112,7 +112,7 @@ export default function TournamentsPage() {
       <section className="-mt-[30px] py-8 max-w-7xl mx-auto rounded-[4px] bg-black">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
-            <div className="flex gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
               <div className="flex flex-col">
                 <label className="text-white my-text text-[14px]">Game</label>
                 <select className="w-[270px] h-[36px] rounded-[6px] bg-[#EFEFEF1A] border-[1px] border-[#D1D5DB1C] my-text text-[16px] text-white px-4 py-2">
