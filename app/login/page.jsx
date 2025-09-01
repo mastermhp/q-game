@@ -21,7 +21,7 @@ export default function LoginPage() {
             </div>
 
             {/* Form */}
-            <div className="space-y-6  w-[512px]">
+            <div className="space-y-6  md:w-[512px]">
               <div className="h-[100px]">
                 <h1 className="text-[40px] font-semibold text-white mb-2">
                   Login
@@ -33,24 +33,24 @@ export default function LoginPage() {
 
               <form className="space-y-8 mt-14">
                 <div className="relative">
-                  <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                  <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                     Email
                   </label>
                   <Input
                     type="email"
                     placeholder="john@example.com"
-                    className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
+                    className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] my-text text-white placeholder:text-slate-400"
                   />
                 </div>
 
                 <div className="relative">
-                  <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                  <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                     Password
                   </label>
                   <Input
                     type="password"
                     placeholder="Password"
-                    className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] placeholder:text-slate-400"
+                    className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] my-text placeholder:text-slate-400"
                   />
                 </div>
 
@@ -62,14 +62,14 @@ export default function LoginPage() {
                     />
                     <label
                       htmlFor="remember"
-                      className="text-[14px] font-medium text-white"
+                      className="text-[14px] my-text font-medium text-white"
                     >
                       Remember me
                     </label>
                   </div>
                   <Link
                     href="/forgot-password"
-                    className="text-[14px] font-medium text-[#FF8682]"
+                    className="text-[14px] my-text font-medium text-[#FF8682]"
                   >
                     Forgot Password?
                   </Link>
@@ -78,7 +78,7 @@ export default function LoginPage() {
                 <Button className="w-full p-0 bg-[#9D0C0F] hover:bg-[#9D0C0F]/40 hover:border-[1px] hover:border-[#9D0C0F] transition-all duration-500 cursor-pointer text-white h-[56px] text-base font-semibold rounded-[4px]">
                   <Link href="/" className="w-full h-full flex items-center justify-center">Login</Link> 
                 </Button>
-                <div className="text-center text-[14px] font-medium text-white">
+                <div className="text-center text-[14px] my-text font-medium text-white">
                   Don't have an account?
                   <Link href="/signup" className="transition-all duration-700 cursor-pointer">
                     <span className="text-[#FF8682] text-[14px] font-medium ml-1">
@@ -90,7 +90,7 @@ export default function LoginPage() {
 
               <div class="flex items-center justify-center my-6 mt-18">
                 <div class="flex-1 border-t border-gray-500"></div>
-                <span class="px-4 text-gray-400">Or login with</span>
+                <span class="px-4 my-text text-gray-400">Or login with</span>
                 <div class="flex-1 border-t border-gray-500"></div>
               </div>
 
@@ -117,7 +117,7 @@ export default function LoginPage() {
         </div>
 
         {/* Right Side - Image */}
-        <div className="flex-1 relative py-20">
+        <div className="flex-1 relative py-20 hidden md:block">
           <img
             src="/loginsideimg.png"
             alt="loginsideimg"

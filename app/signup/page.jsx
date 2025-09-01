@@ -9,7 +9,7 @@ export default function SignupPage() {
     <section className="min-h-screen w-full bg-[#111827]">
       <div className="container mx-auto flex py-20">
         {/* Left Side - Image */}
-        <div className="flex-1 relative py-0">
+        <div className="flex-1 relative py-0 hidden md:block">
           <img
             src="/signupsideimg.jpg"
             alt="signupsideimg"
@@ -24,7 +24,7 @@ export default function SignupPage() {
         </div>
 
         {/* Right  Side - Form */}
-        <div className="flex-1 flex items-center justify-center pl-24">
+        <div className="flex-1 flex items-center justify-center px-8 md:px-0 md:pl-24 ">
           <div className="w-full">
             {/* Logo */}
             <div className="-mt-9">
@@ -41,7 +41,7 @@ export default function SignupPage() {
                 <h1 className="text-[40px] font-semibold text-white mb-2">
                   Sign up
                 </h1>
-                <p className="text-white text-[16px]">
+                <p className="text-white text-[16px] my-text">
                   Let's get you set up so you can access your personal account.
                 </p>
               </div>
@@ -49,70 +49,70 @@ export default function SignupPage() {
               <form className="space-y-6 mt-14">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative">
-                    <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                    <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                       First name
                     </label>
                     <Input
                       type="text"
                       placeholder="First name"
-                      className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
+                      className="h-[56px] w-full my-text rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
                     />
                   </div>
                   <div className="relative">
-                    <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                    <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                       Last name
                     </label>
                     <Input
                       type="text"
                       placeholder="Last name"
-                      className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
+                      className="h-[56px] w-full my-text rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="relative">
-                    <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                    <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                       Email
                     </label>
                     <Input
                       type="email"
                       placeholder="john@example.com"
-                      className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
+                      className="h-[56px] w-full rounded-[4px] my-text bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
                     />
                   </div>
 
                   <div className="relative">
-                    <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                    <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                       Phone Number
                     </label>
                     <Input
                       type="text"
                       placeholder="Phone Number"
-                      className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
+                      className="h-[56px] w-full my-text rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] text-white placeholder:text-slate-400"
                     />
                   </div>
                 </div>
 
                 <div className="relative">
-                  <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                  <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                     Password
                   </label>
                   <Input
                     type="password"
                     placeholder="Password"
-                    className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] placeholder:text-slate-400"
+                    className="h-[56px] w-full my-text rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] placeholder:text-slate-400"
                   />
                 </div>
 
                 <div className="relative">
-                  <label className="absolute text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
+                  <label className="absolute my-text text-[#FFFFFF] text-[14px] h-[21px] px-2 -top-3 left-3 bg-[#111827]">
                     Confirm Password
                   </label>
                   <Input
                     type="password"
                     placeholder="Confirm Password"
-                    className="h-[56px] w-full rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] placeholder:text-slate-400"
+                    className="h-[56px] w-full my-text rounded-[4px] bg-[#0F0E0E] border-[1px] border-[#79747E] placeholder:text-slate-400"
                   />
                 </div>
 
@@ -123,17 +123,17 @@ export default function SignupPage() {
                   />
                   <label
                     htmlFor="terms"
-                    className="text-[14px] font-medium text-white"
+                    className="text-[14px] my-text font-medium text-white"
                   >
                     I agree to all the{" "}
                     <Link href="/terms">
-                      <span className="text-[#FF8682] text-[14px] font-medium ml-1">
+                      <span className="text-[#FF8682] my-text text-[14px] font-medium ml-1">
                         Terms
                       </span>
                     </Link>{" "}
                     and{" "}
                     <Link href="/privacy-policy">
-                      <span className="text-[#FF8682] text-[14px] font-medium ml-1">
+                      <span className="text-[#FF8682] my-text text-[14px] font-medium ml-1">
                         Privacy Policies
                       </span>
                     </Link>
@@ -144,7 +144,7 @@ export default function SignupPage() {
                     <Link href="/" className="w-full h-full flex items-center justify-center">Create account</Link> 
                   </Button>
 
-                <div className="text-center text-[14px] font-medium text-white">
+                <div className="text-center my-text text-[14px] font-medium text-white">
                   Already have an account?
                   <Link href="/login" className="transition-all duration-700 cursor-pointer">
                     <span className="text-[#FF8682] text-[14px] font-medium ml-1">
@@ -156,7 +156,7 @@ export default function SignupPage() {
 
               <div class="flex items-center justify-center my-6 mt-12">
                 <div class="flex-1 border-t border-gray-500"></div>
-                <span class="px-4 text-gray-400">Or sign up with</span>
+                <span class="px-4 my-text text-gray-400">Or sign up with</span>
                 <div class="flex-1 border-t border-gray-500"></div>
               </div>
 
